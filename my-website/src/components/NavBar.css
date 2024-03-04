@@ -1,0 +1,41 @@
+/* NavBar.css */
+.header {
+    height: 80px; /* Adjust height according to your header's height */
+}
+
+.navbar-container {
+    background-color: white; /* Adjust background color as needed */
+    border: 1px solid black;
+    position: fixed; 
+    width: 100%; 
+    top: 75px; /* Position below the header */
+    z-index: 1000; /* Ensure navbar is above other content */
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    text-align: center;
+    gap: 20px;
+}
+
+.navbar-list li {
+    margin-right: 20px;
+}
+
+.navbar-list li:last-child {
+    margin-right: 0; 
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+/* Add styles for content below the navbar */
+.content-below-navbar {
+    margin-top: 150px; /* Adjust according to the height of the navbar, header, and additional space */
+    /* Add any additional styles as needed */
+}
